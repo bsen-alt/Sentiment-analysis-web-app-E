@@ -88,6 +88,8 @@ def main():
         st.markdown("Developed for learning and experimenting by _Bawanga Senevirathne_")
 
     st.sidebar.markdown("Experimental demo by _Bawanga Senevirathne_")
+    st.sidebar.markdown("**Future usage**")
+    st.sidebar.markdown("To be able to analyse social media comments, customer reviews and various text based data and to provide an accurate prediction.")
 
 if __name__ == '__main__':
     main()
