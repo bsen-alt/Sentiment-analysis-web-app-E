@@ -85,7 +85,9 @@ def main():
     else:
         st.subheader("About")
         st.info("This application demonstrates the sentiment analysis of input texts from user, and to analyze the polarity and subjectivity to be able to determine if the input is positive, negative or neutral, using technologies such as vaderSentiment, Streamlit, pandas, altair and textBlob")
+        st.markdown("Developed for learning and experimenting by _Bawanga Senevirathne_")
 
+    st.sidebar.markdown("Experimental demo by _Bawanga Senevirathne_")
 
 if __name__ == '__main__':
     main()
