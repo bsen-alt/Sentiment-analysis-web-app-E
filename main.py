@@ -36,8 +36,8 @@ def analyze_token_sentiment(docx):
 
 
 def main():
-    st.title("Streamlit App")
-    st.subheader("Hello Streamlit")
+    st.title("Sentiment Analysis from text")
+    # st.subheader("Hello Streamlit")
 
     menu = ["Home", "About"]
     choice = st.sidebar.selectbox("Menu", menu)
@@ -84,6 +84,7 @@ def main():
 
     else:
         st.subheader("About")
+        st.info("This application demonstrates the sentiment analysis of input texts from user, and to analyze the polarity and subjectivity to be able to determine if the input is positive, negative or neutral, using technologies such as vaderSentiment, Streamlit, pandas, altair and textBlob")
 
 
 if __name__ == '__main__':
